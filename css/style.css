@@ -1,0 +1,112 @@
+/* ****************************
+
+        Default Values
+
+Font: Roboto(paragraphs), Calistoga (headings), serif (nav links)
+
+Colors:
+1 Sizzling red: #f53b57;
+2. Really dark Blue: #181e2c;
+3. Really light Blue: #e5ebf8;
+
+**************************** */
+
+/* -----------------------
+        Basic Setup
+----------------------- */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;  
+}
+
+
+body{
+    color: #181e2c;
+    font-family: 'Merienda One', sans-serif;
+    text-rendering: optimizeLegibility;
+}
+
+body p{
+    font-family: 'Roboto', sans-serif;
+}
+
+body h1,
+body h2,
+body h3,
+body h4 {
+    font-family: 'Calistoga', cursive;
+}
+
+li{    
+    list-style: none;
+    display: inline-block;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+/* -----------------------
+          Header
+------------------------*/
+
+header{
+    width: 100%;
+    background-color: #181e2c;
+    color: #e5ebf8;
+}
+
+.heading-div{
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px
+}
+
+.heading-div h1{
+    font-size: 35px;
+    letter-spacing: 2px;
+}
+
+.nav-menu a{
+    color: #e5ebf8;
+    padding: 31px 30px;
+    font-size: 21px;
+    transition: all .15s ease-in-out;
+    font-family: serif;
+}
+
+.nav-menu a:hover{
+    background-color: #f53b57;
+}
+
+/* -----------------------
+      Heading Section
+------------------------*/
+
+.header-section{
+    height:  60vh;
+    width: 100vw;
+    background-image: url(../img/image1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+    color: #e5ebf8;
+    letter-spacing: 4px;
+    padding-top: 170px;
+    font-size: 30px;
+}
+
